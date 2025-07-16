@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@types/react-dom": "18.2.17",
+    "eslint-config-next": "12.3.4",
+    "eslint": "7.32.0",
+    "eslint-plugin-react": "7.28.0",
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.43",
+    "typescript": "5.4.5"
+  },
+  "name": "nextjs-user",
+  "scripts": {
+    "lint": "next lint",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "next": "latest",
+    "react-dom": "latest",
+    "util": "0.12.5",
+    "react": "latest",
+    "path-browserify": "1.0.1",
+    "ajv-keywords": "5.1.0",
+    "ajv": "8.12.0"
+  }
+}
